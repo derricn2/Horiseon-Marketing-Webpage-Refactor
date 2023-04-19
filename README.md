@@ -61,5 +61,7 @@ Specific CSS comments:
 /* Webpage main content */
 /* sidebar css designs */
 ```
-
+## URL's
+- Deployed Application URL: https://derricn2.github.io/challenge-one/
+- Github URL: https://github.com/derricn2/challenge-one.git
 [def]: ./Develop/assets/images/Webpage%20Screenshot.png
