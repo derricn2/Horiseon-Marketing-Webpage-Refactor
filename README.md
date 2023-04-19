@@ -2,10 +2,10 @@
 Bootcamp Challenge 01 - Basic HTML, CSS, & Git application
 
 ## The Challenge
-Refactor an existing marketing webpage focused on accessibility and optimization for search engines.
+Refactor an existing marketing webpage with a focus on accessibility and optimization for search engines.
 
 Acceptance criteria for the webpage:
-- Meets accessibility standards
+- Webpage meets accessibility standards
 - Applies semantic HTML elements
 - The elements follow a logical structure independent of styling and positioning
 - Includes accessible alt attributes in images
@@ -40,7 +40,6 @@ Specific HTML comments:
 ```
 <!-- Webpage header -->
 <!-- Webpage navigation bar -->
-<!-- Webpage header image -->
 <!-- Webpage main content -->
 <!-- Card 1 -->
 <!-- Card 2 -->
@@ -53,13 +52,19 @@ Specific CSS comments:
 ```
 /* Global webpage design */
 /* Global webpage background color */
-/* Header */
-/* Navigation Bar */
-/* Main content */
+/* header */
+/* navigation bar */
+/* main content */
 /* Search Engine Optimization & Social Media Marking images floating left */
 /* Online Reputation Management image floating right */
-/* Webpage main content */
-/* sidebar css designs */
+/* main content cards styling */
+/* main content card images */
+/* main content card headers */
+/* sidebar content */
+/* sidebar content styling */
+/* sidebar header */
+/* sidebar images */
+/* footer
 ```
 ## URL's
 - Deployed Application URL: https://derricn2.github.io/challenge-one/
