@@ -1,8 +1,8 @@
-# Challenge-One
+# Horiseon-Marketing-Webpage-Refactor
 Bootcamp Challenge 01 - Basic HTML, CSS, & Git application
 
 ## The Challenge
-Refactor an existing marketing webpage with a focus on accessibility and optimization for search engines.
+Refactor an existing marketing webpage with a focus on accessibility and optimization by applying fundamental practices of HTML and CSS.
 
 Acceptance criteria for the webpage:
 - Webpage meets accessibility standards
@@ -12,12 +12,11 @@ Acceptance criteria for the webpage:
 - Heading attributes fall in sequential order
 - Includes a concise, descriptive title element
 
-Additional requirements for future practice:
+Additional requirements:
 - Ensure all links are functioning correctly
 - Clean up the CSS selectors and properties for optimization
-  - Refactor CSS selectors and properties
   - Organize CSS selectors and properties to follow the semantic structure of the HTML elements
-  - Include comments before each element or section of the page
+  - CSS file is properly commented
 
 ## Mock-Up
 
@@ -27,47 +26,45 @@ The following image shows a screenshot of the web application's appearance and f
 
 ## The Process
 To meet acceptance criteria, the following had to be done:
-- Fully understand the relationship/connection between HTML and CSS
+- Understand the relationship/connection between HTML and CSS
 - Researching and develop understanding on the following:
   - Purpose/goal of refactoring
   - HTML Semantic Elements
   - Webpage accessibility standards
   - CSS identifiers
   - Git functionality
-- Applying above-mentioned concepts and practices to webpage in conjuction with one another
+- Apply above-mentioned concepts and practices in conjuction with one another
 
-Specific HTML comments:
+## Changes Made
+
+HTML:
 ```
-<!-- Webpage header -->
-<!-- Webpage navigation bar -->
-<!-- Webpage main content -->
-<!-- Card 1 -->
-<!-- Card 2 -->
-<!-- Card 3 -->
-<!-- Webpage sidebar content -->
-<!-- Webpage footer -->
+- Header was edited, removing <span> element
+- Comment/labeled elements breaking down the structure of the webpage
+- Updated non-semantic elements to semantic elements
+- Edited HTML elements (class/id) for CSS selectors optimization & for webpage link functionality
+- Created alt properties to describe images
 ```
-\
-Specific CSS comments:
+CSS:
 ```
-/* Global webpage design */
-/* Global webpage background color */
-/* header */
-/* navigation bar */
-/* main content */
-/* Search Engine Optimization & Social Media Marking images floating left */
-/* Online Reputation Management image floating right */
-/* main content cards styling */
-/* main content card images */
-/* main content card headers */
-/* sidebar content */
-/* sidebar content styling */
-/* sidebar header */
-/* sidebar images */
-/* footer
+- Commented/noted each section describing the structure layout
+- Reduce duplicate code
+- Updated selector types 
+- Organized the order of selectors
 ```
+
 ## URL's
-- Deployed Application URL: https://derricn2.github.io/challenge-one/
-- Github URL: https://github.com/derricn2/challenge-one.git
+- Deployed Application URL: https://derricn2.github.io/Horiseon-Marketing-Webpage-Refactor/
+- Github URL: https://github.com/derricn2/Horiseon-Marketing-Webpage-Refactor.git
 
-[def]: ./Develop/assets/images/Webpage%20Screenshot.png
+[def]: ./assets/images/Webpage%20Screenshot.png
+
+## References
+
+ - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ - [HTML Semenatic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+ - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+ - [CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
+ - [Git](https://developer.mozilla.org/en-US/docs/Glossary/Git)
+ - [Refactoring Basics](https://christinatruong.medium.com/refactoring-html-and-css-69de73a5fb88)
+
